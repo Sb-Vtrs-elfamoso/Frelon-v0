@@ -1,0 +1,42 @@
+# Core
+python>=3.10,<3.12
+jupyter
+ipywidgets
+
+# Data + utilities
+numpy
+pandas
+opencv-python
+matplotlib
+albumentations
+Pillow
+tqdm
+scikit-learn
+pyyaml
+
+# Roboflow
+roboflow==1.1.34
+
+# TensorFlow + addons
+tensorflow==2.15.0
+tensorflow-hub
+tensorflow-datasets
+tensorflow-addons
+
+# TF Object Detection API (and deps)
+tf_slim
+protobuf<5
+Cython
+contextlib2
+lxml
+pycocotools
+six
+gin-config
+absl-py
+typing-extensions>=4.5.0
+tf-models-official==2.15.0
+
+# Optional GPU support (you may comment these if on CPU-only machine)
+# nvidia-cudnn-cu11==8.6.0.163
+# nvidia-cublas-cu11==11.10.3.66
+# nvidia-cuda-nvcc-cu11==11.8.89
