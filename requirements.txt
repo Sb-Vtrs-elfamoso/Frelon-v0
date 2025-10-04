@@ -6,7 +6,6 @@ roboflow>=1.0.6
 # TensorFlow Lite (export/conversion)
 tensorflow>=2.10,<2.16
 tf2onnx
-tflite2onnx
 
 # Detection models
 yolox
